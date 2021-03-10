@@ -1,0 +1,17 @@
+// Node Target Mapping
+// https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": [
+      "ES2020"
+    ],
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "src",
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2020"
+  }
+}

@@ -1,0 +1,1 @@
+TypeScript & Fastify application example

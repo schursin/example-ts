@@ -1,0 +1,27 @@
+{
+  "name": "example-ts",
+  "version": "1.0.0",
+  "description": "TypeScript & Fastify application example",
+  "main": "dist/index.js",
+  "dependencies": {
+    "fastify": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.33",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  },
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf ./dist",
+    "dev": "ts-node ./src/index.ts",
+    "start": "node --enable-source-maps ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schursin/example-ts.git"
+  },
+  "author": "schursin",
+  "license": "MIT"
+}
